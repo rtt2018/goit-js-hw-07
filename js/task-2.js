@@ -30,7 +30,6 @@ const galleryList = document.querySelector(".gallery");
 images.forEach((element) => {
   const addListItem = document.createElement("li");
   const addImage = document.createElement("img");
-  // addListItem.classList.add(""); // Додаємо клас для розмітки галереї
   addImage.alt = element.alt;
   addImage.src = element.url;
   addImage.width = "360";

@@ -88,6 +88,8 @@ li {
 }
 
 .gallery {
+  max-width: 1128px;
+  margin: 100px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
