@@ -13,6 +13,11 @@ body {
   line-height: 1.5;
 }
 
+img {
+  display: block;
+  object-fit: cover;
+}
+
 h1,
 h2,
 h3,
@@ -80,4 +85,11 @@ li {
   letter-spacing: 0.04em;
   color: #2e2f42;
   padding: 8px 16px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
