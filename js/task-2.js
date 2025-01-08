@@ -26,8 +26,8 @@ const images = [
 ];
 
 const galleryList = document.querySelector(".gallery");
-
-images.forEach((element) => {
+// 1 варіант
+const elementsArray = images.map((element) => {
   const addListItem = document.createElement("li");
   const addImage = document.createElement("img");
   addImage.alt = element.alt;
@@ -35,5 +35,19 @@ images.forEach((element) => {
   addImage.width = "360";
   addImage.height = "300";
   addListItem.appendChild(addImage);
-  galleryList.appendChild(addListItem);
+  return addListItem;
 });
+
+galleryList.append(...elementsArray);
+
+// 2 варіант
+// images.forEach((element) => {
+//   const addListItem = document.createElement("li");
+//   const addImage = document.createElement("img");
+//   addImage.alt = element.alt;
+//   addImage.src = element.url;
+//   addImage.width = "360";
+//   addImage.height = "300";
+//   addListItem.appendChild(addImage);
+//   galleryList.appendChild(addListItem);
+// });
