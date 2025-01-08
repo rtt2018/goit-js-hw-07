@@ -243,3 +243,81 @@ h1 {
 .change-color:hover {
   background-color: #6c8cff;
 }
+
+#controls {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  margin: 0 auto 16px;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls input:hover {
+  border: 1px solid #000;
+}
+
+#controls input:active {
+  border: 1px solid #808080;
+}
+
+#controls button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+[data-create] {
+  background-color: #4e75ff;
+}
+
+[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: auto;
+  background-color: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  margin: 0 auto;
+}
