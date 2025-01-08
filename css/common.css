@@ -237,6 +237,7 @@ h1 {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .change-color:hover {

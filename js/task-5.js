@@ -13,8 +13,4 @@ function changeBodyColor() {
   const currentColor = getRandomHexColor();
   colorName.textContent = currentColor;
   document.body.style.backgroundColor = currentColor;
-  console.log(
-    "🚀 ~ changeBodyColor ~ document.body.style.backgroundColor:",
-    document.body.style.backgroundColor
-  );
 }
