@@ -172,11 +172,13 @@ h1 {
   outline: none;
 }
 
-.login-form input:hover {
+.login-form input:hover,
+.login-form input:focus {
   border: 1px solid #000;
 }
 
 .login-form input:active {
+  border: 1px solid #808080;
 }
 
 .login-form button {
