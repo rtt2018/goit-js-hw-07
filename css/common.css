@@ -201,3 +201,44 @@ h1 {
 .login-form button:focus {
   background-color: #6c8cff;
 }
+
+.widget {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 100px 88px;
+  min-width: 345px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.widget p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
